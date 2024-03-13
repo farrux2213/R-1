@@ -12,6 +12,9 @@ button.addEventListener("click", () => {
   box.style = `
   background-color: ${rangi.value};
   width: ${width.value}px;
-  height: ${height.value}px
+  border-radius: ${shakli.value === "circle" ? "50%" : "0"};
+  height: ${height.value}px;
+  margin-top: 100px;
+  margin-left: 200px;
 `;
 });
