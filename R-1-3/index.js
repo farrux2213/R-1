@@ -1,9 +1,9 @@
-const natija = document.getElementById("natija");
-const button = document.getElementById("button");
-const valyuta = 12490.0;
-const result = 0;
+let natija = document.getElementById("natija");
+let button = document.getElementById("button");
+let valyuta = 12490.0;
+let result = 0;
 
-const summa = document.getElementById("summa");
+let summa = document.getElementById("summa");
 button.addEventListener("click", () => {
   if (summa.value === "") return alert("Biror qiymat kiriting");
   else {
