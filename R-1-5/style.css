@@ -1,0 +1,16 @@
+@keyframes moveAnimation {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(200px, 200px);
+  }
+}
+
+.animate {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  animation: moveAnimation 4s forwards;
+}
